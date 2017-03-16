@@ -431,6 +431,13 @@ Write new resource/attribute description to `README.md`
 
 Run the tests (`rake`), ensuring they all pass.
 
+### Coding convention
+
+Use bracket notation e.g. `node['cassandra']['user']`.
+The older "method" syntax (`node.cassandra.user`) is deprecated and will be removed in Chef 13.
+
+See https://docs.chef.io/deprecations_attributes.html
+
 
 ## Copyright & License
 
